@@ -1,0 +1,207 @@
+body{
+    background: #222E42;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh
+;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.login-card{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 430px;
+height: 350px;
+top: 247.5px;
+left: 505px;
+text-align: center;
+display: block;
+margin-bottom: 243.5px;
+opacity: 1;
+border-radius: 8px;
+
+
+}
+.sign{
+     padding-top: 19px;
+    margin-top: 19px;
+    width: 79px;
+height: 32px;
+top: 19px;
+left: 175px;
+opacity: 1;
+font-family: Archivo;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+color: #333333;
+
+margin: 0 auto;
+
+
+
+}
+.text{
+  
+
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+padding-top: 6px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+color: #737373;
+margin: auto;
+margin-bottom:24px ;
+
+
+}
+label{
+    display: block;
+    font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+width: 69;
+height: 20;
+top: 101px;
+margin-left: 32px;
+
+opacity: 1;
+
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+
+    
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #F37626;
+    margin:0 auto;
+
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+
+border: 0;
+line-height: 22px;
+letter-spacing: 0%;
+color: #FFFFFF;
+border-radius: 8px;
+text-align: center;
+
+width: 366px;
+height: 48px;
+top: 283px;
+left: 32px;
+border-radius: 6px;
+cursor: pointer;
+opacity: 1;
+
+
+
+}
+
+input{
+    width: 365px;
+height: 39px;
+top: 128px;
+left: 32px;
+border-radius: 6px;
+border: 1px solid #D9D9D9;
+opacity: 1;
+border-width: 1px;
+color:#D9D9D9;
+margin-top: 7px;
+margin-bottom:18px;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+
+line-height: 22px;
+letter-spacing: 0%;
+
+
+}
+#password{
+    margin-bottom: 32px;
+}
+p{
+    display: block;
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+margin:auto 0px;
+color: #AFAFAF;
+
+}
+.pass-img{
+  width: 365px;
+  height: 39px;
+  box-sizing: border-box;
+
+  padding-left: 40px;   
+  padding-right: 40px;  
+  font-size: 14px;
+  font-family: Inter;
+  color: #333;
+
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+
+  
+  background-image: url('../assets/lock.png'), url('../assets/eye.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: 12px center, right 11px center;
+  background-size: 16px 16px, 16px 16px;
+
+
+  
+}
+.wifi-img{
+    height: 22px;
+    width: 22px;
+ 
+cursor: pointer;
+align-items: center;
+
+opacity: 1;
+
+}
+.user-img{
+    box-sizing: border-box;
+  width: 365px;
+  height: 39px;
+
+  padding-left: 36px; 
+  font-size: 14px;
+  line-height: 22px;
+
+  background-image: url('../assets/Person\ standing.png');
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 14px 14px;
+
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+  color: #333
+
+}
